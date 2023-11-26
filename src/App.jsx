@@ -34,7 +34,15 @@ const App = () => {
   }
 
   return (
-    <div>App</div>
+    <StyledAppContainer>
+      <StyledCard>
+        <h1 style={{textAlign: 'center', fontSize: '1.5rem', marginBottom: '1rem'}}>
+          Click Button
+        </h1>
+        <ChanceButton onClick={handleButtonClick} isLoading={isLoading} />
+        {isLoading ? <Loader /> : <ChanceMessage show={showMessage} isLoading={isLoading} />}
+      </StyledCard>
+    </StyledAppContainer>
   )
 }
 
