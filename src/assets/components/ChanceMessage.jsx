@@ -14,7 +14,13 @@ const StyledMessageContainer = styled(motion.div)`
 
 const ChanceMessage = () => {
   return (
-    <div></div>
+    <StyledMessageContainer
+      variants = {messageVariants}
+      initial = "hidden"
+      animate = {show ? 'visible' : 'hidden'}
+    >
+      {isLoading ? <p>Loading...</p> : <p>Do I still have a chance?</p>}
+    </StyledMessageContainer>
   )
 }
 
