@@ -10,8 +10,8 @@ const StyledLoader = styled.div`
     animation: spin 1s linear inifinite;
 
     @keyframes spin {
-        0% { transform: rotate(0deg) }
-        100% ( transfor: rotate(360deg) )
+        0% {transform: rotate(0deg)}
+        100% {transfor: rotate(360deg)}
     }
 `
 
