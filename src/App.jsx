@@ -21,6 +21,18 @@ const StyledCard = styled.div`
 `
 
 const App = () => {
+  const [showMessage , setShowMessage] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+
+  const handleButtonClick = () => {
+    setIsLoading(true)
+
+    setTimeout(() => {
+      setIsLoading(false)
+      setShowMessage(true)
+    }, 2000)
+  }
+
   return (
     <div>App</div>
   )
