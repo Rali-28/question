@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-const StledButton = styled(motion.button)`
+const StyledButton = styled(motion.button)`
   background-color: #3498db
   color: #fff
   padding: 10px 20px
