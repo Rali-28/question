@@ -33,7 +33,7 @@ const App = () => {
     setTimeout(() => {
       setIsLoading(false)
       setShowMessage(true)
-    }, 2000)
+    }, 1300)
   }
 
   return (
