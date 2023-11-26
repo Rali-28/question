@@ -8,8 +8,8 @@ const messageVariants = {
 }
 
 const StyledMessageContainer = styled(motion.div)`
-  margin-top: 1rem
-  text-align: center
+  margin-top: 1rem;
+  text-align: center;
 `
 
 const ChanceMessage = ({show, isLoading}) => {
