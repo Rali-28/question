@@ -7,9 +7,14 @@ const messageVariants = {
   visible: {opacity: 1, y: 0, transition: {duration: 0.5}}
 }
 
+const StyledMessageContainer = styled(motion.div)`
+  margin-top: 1rem
+  text-align: center
+`
+
 const ChanceMessage = () => {
   return (
-    <div>ChanceMessage</div>
+    <div></div>
   )
 }
 
