@@ -16,9 +16,16 @@ const StledButton = styled(motion.button)`
   }
 `
 
-const ChanceButton = () => {
+const ChanceButton = ({ onClick , isLoading }) => {
   return (
-    <div>ChanceButton</div>
+    <StyledButton
+      whileHover = {{ scale: 1.1 }}
+      whileTap = {{ scale: 0.9 }}
+      onClick = {onClick}
+      isLoading = {isLoading}
+    >
+      {isLoading ? 'Loading...' : 'Click me'}
+    </StyledButton>
   )
 }
 
