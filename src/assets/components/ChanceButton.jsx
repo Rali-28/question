@@ -10,10 +10,6 @@ const Button = styled(motion.button)
 `
 
 const ChanceButton = ({ onClick , isLoading }) => {
-  const buttonVariants = {
-    loading: { rotate: 360, transition: {duration: 1, repeat: Infinity} }
-  }
-
   return (
     <div>ChanceButton</div>
   )
