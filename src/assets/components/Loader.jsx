@@ -17,7 +17,7 @@ const StyledLoader = styled.div`
 
 const Loader = () => {
   return (
-    <div>Loader</div>
+    <StyledLoader />
   )
 }
 
