@@ -40,7 +40,7 @@ const App = () => {
     <StyledAppContainer>
       <StyledCard>
         <ChanceButton onClick={handleButtonClick} isLoading={isLoading} />
-        {isLoading ? <Loader /> : <ChanceMessage show={showMessage} isLoading={isLoading} />}
+        {isLoading ?  <Loader size={30} color='#3498db' /> : <ChanceMessage show={showMessage} isLoading={isLoading} />}
       </StyledCard>
     </StyledAppContainer>
   )
