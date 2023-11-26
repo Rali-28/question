@@ -9,7 +9,7 @@ const Button = styled(motion.button)
   ${({ isLoading }) => isLoading && '@apply bg-gray-400 cursor-not-allowed'}
 `
 
-const ChanceButton = () => {
+const ChanceButton = ({ onClick , isLoading }) => {
   return (
     <div>ChanceButton</div>
   )
