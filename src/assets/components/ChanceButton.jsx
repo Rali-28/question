@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-const Button = styled()
+const Button = styled(motion.button)
 `
   @apply px-4 py-2 text-white rounded cursor-pointer
 
