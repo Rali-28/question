@@ -1,7 +1,5 @@
 import React , { useState } from 'react'
-import ChanceButton from './ChanceButton'
-import ChanceMessage from './ChanceMessage'
-import Loader from './Loader'
+import { ChanceButton , ChanceMessage , Loader } from './components'
 import styled from 'styled-components';
 
 const StyledAppContainer = styled.div`
