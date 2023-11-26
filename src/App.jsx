@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { useState } from 'react'
 import ChanceButton from './ChanceButton'
 import ChanceMessage from './ChanceMessage'
 import Loader from './Loader'
