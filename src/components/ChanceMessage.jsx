@@ -12,7 +12,7 @@ const StyledMessageContainer = styled(motion.div)`
   text-align: center
 `
 
-const ChanceMessage = () => {
+const ChanceMessage = ({show, isLoading}) => {
   return (
     <StyledMessageContainer
       variants = {messageVariants}
